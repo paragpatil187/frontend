@@ -16,7 +16,7 @@ const navigate= useNavigate();
                 password: password
             });
 
-      navigate("/")
+      navigate("/home")
     }
     catch(err){
       console.log(err)
